@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 const retained = [];
 
 app.get('/', (req, res) => {
-  res.send('Parth Bhadua');
+  res.send('Hello World');
 });
 
 // allocate and retain memory (MB) to simulate high memory usage
@@ -34,4 +34,5 @@ app.get('/mem', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
 
