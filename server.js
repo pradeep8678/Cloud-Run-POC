@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   memoryHog.push(arr); // Keep reference so it isn't garbage collected
 
   res.send(
-    `Hello from Pradeep Run! Memory Scaling Project is running on port ${port}. Memory is being stressed now!`
+    `Hello from Pradeepds Run! Memory Scaling Project is running on port ${port}. Memory is being stressed now!`
   );
 });
 
