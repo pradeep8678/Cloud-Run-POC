@@ -4,7 +4,7 @@ FROM node:20-slim
 # Create and change to the application directory
 WORKDIR /usr/src/app
 
-# Copy application dependency manifests to the container image.
+# Copy application dependency manifests
 COPY package*.json ./
 
 # Install production dependencies
